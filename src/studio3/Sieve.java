@@ -16,7 +16,7 @@ public class Sieve {
         for (int b = 2; b < array.length; b++) {
         	for (int index = b; index < (array.length-2); index = index + b ) {
         		array[index] = 0;
-        		System.out.println(array[index]);
+
         	}
         }
 
